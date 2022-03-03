@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gu6)p!q(om*h-3%xjoo9n_4m6^jcx1+g8$kshow%%=ru+e^w8d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['newscategorizer-dummy.herokuapp.com','127.0.0.1']
 
