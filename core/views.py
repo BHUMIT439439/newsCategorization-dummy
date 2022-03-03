@@ -8,13 +8,13 @@ from joblib import dump, load
 import joblib
 import re
 import nltk
-# nltk.download()
+nltk.download()
 from nltk.corpus import stopwords
-# nltk.download('stopwords')
+nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
-# nltk.download('punkt')
+nltk.download('punkt')
 from nltk.stem import WordNetLemmatizer
-# nltk.download('wordnet')
+nltk.download('wordnet')
 
 print("-------------------------------------------------------------")
 dataset = pd.read_csv('./NewsCategorizer.csv', sep=",", encoding='utf-8')
